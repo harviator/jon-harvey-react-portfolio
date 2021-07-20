@@ -3,25 +3,6 @@ import harviator from '../images/harviator.png';
 
 class About extends Component {
 
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            key: "value"
-        }
-
-    }
-
-
-    componentDidMount () {
-
-    }
-
-    // this.state.key
-
-    // this.setState({key: "changedValue"})
-
-
     render() {
         return (
             <section id="about">

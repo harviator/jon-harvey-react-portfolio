@@ -9,19 +9,6 @@ function App() {
   // state/  value-holder/value-setter
   const [ownerName, setOwnerName] = useState("Jon Harvey");
 
-  const [data, setData] = useState([])
-
-  useEffect(() => {
-    fetch("https://randomuser.me/api/")
-    .then((res) => {return res.json()})
-    .then((results) => {
-      // render your data
-      console.log(results)
-      setData(results)
-    })
-  }, [])
-
-
   return (
     <div>
       <Navbar/>
@@ -32,10 +19,6 @@ function App() {
         <About ownerName={ownerName}/>
 
         <section id="work">
-
-          <button onClick={() => {
-            setOwnerName(data.results[0].name.first)
-          }}>Click!</button>
 
           <h2>Check out some of my work below</h2>
 
