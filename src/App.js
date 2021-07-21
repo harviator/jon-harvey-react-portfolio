@@ -1,9 +1,12 @@
+import React, {useState} from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar';
-import About from './components/About';
-
-import React, {useState} from 'react';
-import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import Portfolio from './components/pages/Portfolio';
+import Resume from './components/pages/Resume';
 
 function App() {
 

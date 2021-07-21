@@ -1,5 +1,6 @@
 import React from 'react';
-import harviator from '../images/harviator.png';
+import harviator from '../../assets/images/harviator.png';
+
 
 function About(props) {
         return (
