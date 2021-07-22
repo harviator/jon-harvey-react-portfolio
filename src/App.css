@@ -12,6 +12,7 @@ html, body {
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
   background-color: var(--background-color);
+  color: #ffffff;
 }
 
 /* styling for navbar */
@@ -20,12 +21,12 @@ nav {
   justify-content: flex-end;
   background-color: var(--header-bkgrnd-color);
   margin: 0;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   width: 100%;
 }
 
-nav a {
+.menu {
   padding: 20px;
   color: #fff;
   text-decoration: none;
@@ -34,16 +35,26 @@ nav a {
   
 }
 
-nav a:hover {
+.form {
+  margin: 30px;
+  /* padding: 30px; */
+}
+
+.activemenu {
+  color: var(--orange-text);
+}
+
+.menu:hover {
   background-color: var(--background-color);
   color: var(--blue-text);
   border: 2px solid var(--orange-text);
 }
 
-nav a:active {
+.menu:active {
   color: var(--orange-text);
   border: 2px solid var(--blue-text);
 }
+
 /* styling for h1 */
 h1 {
   font-family: "Orbitron", sans-serif;
@@ -53,7 +64,9 @@ h1 {
 }
 /* gave the h2 tag some exta space on the bottom */
 h2 {
-  padding-bottom: 30px;
+  margin: 30px;
+  padding: 30px;
+  color: #fff;
 }
 /* stylling for the footer */
 footer {
