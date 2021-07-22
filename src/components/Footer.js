@@ -17,7 +17,7 @@ function Footer(props) {
                     target="_blank">Resume</a>
 
                 <a id="profile-link" href="https://github.com/harviator" target="_blank">
-                    <img class="project-image"
+                    <img className="project-image"
                         src="https://user-images.githubusercontent.com/78506767/113162427-4d0f2380-920d-11eb-88f9-bf0aec2c9029.png"
                         alt="GitHub Logo" />
                 </a>
