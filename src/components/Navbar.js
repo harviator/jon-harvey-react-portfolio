@@ -8,6 +8,7 @@ function Navbar(props) {
   return (
     <header>
       <nav>
+      <h1>Jon Harvey</h1>
         <Link to="/" className={location.pathname === "/" ? "activemenu menu" : "menu"}>
           About
         </Link>

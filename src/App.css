@@ -18,9 +18,10 @@ html, body {
 /* styling for navbar */
 nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   background-color: var(--header-bkgrnd-color);
-  margin: 0;
+  padding: 10px 20px 10px 20px;
   /* position: fixed; */
   top: 0;
   width: 100%;
@@ -42,6 +43,7 @@ nav {
 
 .activemenu {
   color: var(--orange-text);
+  text-shadow: 1px 1px 5px #fff;
 }
 
 .menu:hover {
@@ -167,8 +169,8 @@ footer h3 {
   align-items: center;
   background: linear-gradient(to top right, #404040 0%, var(--background-color) 100%);
   text-align: center;
-  margin: 0;
-  height: 100vh;
+  margin: 10px;
+  /* height: 100vh; */
   color: var(--blue-text);
 }
 
