@@ -14,6 +14,8 @@ html, body {
   color: #ffffff;
 }
 
+/* Element Selectors */
+
 /* styling for navbar */
 nav {
   display: flex;
@@ -21,39 +23,8 @@ nav {
   align-items: center;
   background-color: var(--header-bkgrnd-color);
   padding: 10px 20px 10px 20px;
-  /* position: fixed; */
   top: 0;
   width: 100%;
-}
-
-.menu {
-  padding: 20px;
-  color: #fff;
-  text-decoration: none;
-  font-size: 15px;
-  text-transform: uppercase;
-  
-}
-
-.form {
-  margin: 30px;
-  /* padding: 30px; */
-}
-
-.activemenu {
-  color: var(--orange-text);
-  text-shadow: 1px 1px 5px var(--blue-text);
-}
-
-.menu:hover {
-  background-color: var(--background-color);
-  color: var(--blue-text);
-  border: 2px solid var(--orange-text);
-}
-
-.menu:active {
-  color: var(--orange-text);
-  border: 2px solid var(--blue-text);
 }
 
 /* styling for h1 */
@@ -80,6 +51,42 @@ footer h3 {
   color: var(--orange-text);
   text-align: center;
 }
+
+/* Class Selectors */
+
+.activemenu {
+  color: var(--orange-text);
+  text-shadow: 1px 1px 5px var(--blue-text);
+}
+
+.btn:hover {
+  color: var(--blue-text);
+}
+
+.form {
+  margin: 30px;
+  padding: 30px;
+}
+
+.menu {
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.menu:hover {
+  background-color: var(--background-color);
+  color: var(--blue-text);
+  border: 2px solid var(--orange-text);
+}
+
+.menu:active {
+  color: var(--orange-text);
+  border: 2px solid var(--blue-text);
+}
+
 /* flexbox grid and styling. used flexbox to make the grid responsive without a media query. */
 .projects-grid {
   display: flex;
