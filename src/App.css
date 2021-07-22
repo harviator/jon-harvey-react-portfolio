@@ -2,7 +2,6 @@
 :root {
   --background-color: #262626;
   --header-bkgrnd-color: #003366;
-  --projects-bkgrnd-color: #ecf2f9;
   --orange-text: #ff6600;
   --blue-text: #0080ff;
 }
@@ -43,7 +42,7 @@ nav {
 
 .activemenu {
   color: var(--orange-text);
-  text-shadow: 1px 1px 5px #fff;
+  text-shadow: 1px 1px 5px var(--blue-text);
 }
 
 .menu:hover {
@@ -61,12 +60,12 @@ nav {
 h1 {
   font-family: "Orbitron", sans-serif;
   color: #fff;
+  text-shadow: 5px 5px 10px var(--blue-text);
   text-transform: uppercase;
   letter-spacing: 10px;
 }
-/* gave the h2 tag some exta space on the bottom */
+
 h2 {
-  margin: 30px;
   padding: 30px;
   color: #fff;
 }
@@ -108,9 +107,9 @@ footer h3 {
   box-shadow: 3px 5px 7px var(--blue-text);
 }
 
-.projects-grid div img {
+.project-image {
   min-height: 100px;
-  max-height: 200px;
+  max-height: 300px;
   width: auto;
 }
 
@@ -131,11 +130,13 @@ footer h3 {
   color: #fff;
   display: none;
 }
+
 /* styled the material-icons to change color on hover */
 .projects-grid a:hover .material-icons {
   color: var(--orange-text);
   display: inline-block;
 }
+
 /* styling for footer and profile links */
 .profile {
   display: flex;
@@ -162,6 +163,14 @@ footer h3 {
   border: 2px solid var(--blue-text);
 }
 
+.github-logo {
+  filter: brightness(50%);
+}
+
+.github-logo:hover {
+  filter: brightness(100%);
+}
+
 #about {
   display: flex;
   flex-direction: column;
@@ -170,7 +179,6 @@ footer h3 {
   background: linear-gradient(to top right, #404040 0%, var(--background-color) 100%);
   text-align: center;
   padding: 10px 100px 10px 100px;
-  /* height: 100vh; */
   color: #fff;
 }
 
@@ -180,10 +188,9 @@ footer h3 {
 }
 
 #work {
-  background-color: var(--projects-bkgrnd-color);
-  padding: 30px 50px;
+  background: linear-gradient(to top right, #404040 0%, var(--background-color) 100%);
+  padding: 0px 50px 30px 50px;
   text-align: center;
-  color: bl#000;
 }
 
 /* media query to make navbar and footer responsive at a smaller screen size */
