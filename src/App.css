@@ -27,7 +27,6 @@ nav {
   width: 100%;
 }
 
-/* styling for h1 */
 h1 {
   font-family: "Orbitron", sans-serif;
   color: #fff;
@@ -39,6 +38,7 @@ h1 {
 h2 {
   padding: 30px;
   color: #fff;
+  text-align: left;
 }
 /* stylling for the footer */
 footer {
@@ -64,8 +64,7 @@ footer h3 {
 }
 
 .form {
-  margin: 30px;
-  padding: 30px;
+  padding: 0px 30px 30px 30px;
 }
 
 .menu {
@@ -102,7 +101,7 @@ footer h3 {
   border-radius: 5px;
   box-shadow: 2px 4px 7px var(--background-color);
   text-decoration: none;
-  margin: 10px 10px;
+  margin: 10px 30px 30px 30px;
   padding-bottom: 10px;
 }
 
@@ -115,7 +114,7 @@ footer h3 {
 }
 
 .project-image {
-  min-height: 100px;
+  min-height: 50px;
   max-height: 300px;
   width: auto;
 }
@@ -201,7 +200,7 @@ footer h3 {
 }
 
 /* media query to make navbar and footer responsive at a smaller screen size */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   nav, footer {
       display: flex;
       flex-direction: column;
@@ -209,6 +208,11 @@ footer h3 {
 
   .profile {
       flex-direction: column;
+  }
+
+  .projects-grid div {
+    margin: 0px;
+    padding: 10px;
   }
 }
 
