@@ -12,9 +12,7 @@ function Footer(props) {
 
                 <a id="profile-link" href="tel:+1-416-555-0137">P: +1-416-555-0137</a>
 
-                <a id="profile-link"
-                    href="https://drive.google.com/file/d/1a6SfhS_a1vxUoSp16MjsUUqtMsVMLzDk/view?usp=sharing"
-                    target="_blank">Resume</a>
+                
 
                 <a id="profile-link" href="https://github.com/harviator" target="_blank">
                     <img className="project-image"

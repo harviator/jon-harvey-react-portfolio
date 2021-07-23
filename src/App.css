@@ -40,7 +40,7 @@ h2 {
   color: #fff;
   text-align: left;
 }
-/* stylling for the footer */
+/* styling for the footer */
 footer {
   display: block;
   padding: 20px;
@@ -54,10 +54,7 @@ footer h3 {
 
 /* Class Selectors */
 
-.activemenu {
-  color: var(--orange-text);
-  text-shadow: 1px 1px 5px var(--blue-text);
-}
+
 
 .btn:hover {
   color: var(--blue-text);
@@ -81,9 +78,14 @@ footer h3 {
   border: 2px solid var(--orange-text);
 }
 
-.menu:active {
+/* .menu:active {
   color: var(--orange-text);
   border: 2px solid var(--blue-text);
+} */
+
+.activemenu {
+  color: var(--orange-text);
+  text-shadow: 1px 1px 5px var(--blue-text);
 }
 
 /* flexbox grid and styling. used flexbox to make the grid responsive without a media query. */
@@ -137,13 +139,11 @@ footer h3 {
   display: none;
 }
 
-/* styled the material-icons to change color on hover */
 .projects-grid a:hover .material-icons {
   color: var(--orange-text);
   display: inline-block;
 }
 
-/* styling for footer and profile links */
 .profile {
   display: flex;
   justify-content: space-around;
@@ -176,6 +176,27 @@ footer h3 {
 .github-logo:hover {
   filter: brightness(100%);
 }
+
+.resume {
+  padding: 30px;
+}
+
+.resume h2 {
+  padding: 0px 0px 30px 0px;
+}
+
+.resume > p > a {
+  text-decoration: none;
+  color: #fff;
+  filter: brightness(50%);
+}
+
+.resume > p > a:hover {
+  color: var(--orange-text);
+  filter: brightness(100%);
+}
+
+/* ID Selectors */
 
 #about {
   display: flex;
