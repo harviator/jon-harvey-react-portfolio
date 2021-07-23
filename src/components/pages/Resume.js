@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume(props) {
     return (
-        <section className="resume">
+        <section className="resume" style={{height:'95vh'}}>
             <h2>Resume</h2>
 
             <p>Download my <a id="profile-link"

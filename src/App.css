@@ -7,11 +7,12 @@
 }
 
 html, body {
-  height: max-content;
+  height: 100%;
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
   background-color: var(--background-color);
   color: #ffffff;
+  
 }
 
 /* Element Selectors */
@@ -42,7 +43,8 @@ h2 {
 }
 /* styling for the footer */
 footer {
-  display: block;
+  position: relative;
+  width: 100%;
   bottom: 0;
   margin: 0px;
   padding: 20px;

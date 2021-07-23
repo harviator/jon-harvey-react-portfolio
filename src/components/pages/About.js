@@ -4,7 +4,7 @@ import harviator from '../../assets/images/harviator.png';
 
 function About(props) {
         return (
-            <section id="about">
+            <section style={{height:'95vh'}} id="about">
                 <img src={harviator} className="App-logo" alt="Jon Harvey Avatar" />
                 {"\n"}
                 <h5>Hi! I'm a pilot who is on a journey to become a developer.</h5>
