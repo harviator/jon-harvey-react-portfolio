@@ -7,7 +7,7 @@
 }
 
 html, body {
-  height: 100%;
+  height: max-content;
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
   background-color: var(--background-color);
@@ -43,18 +43,13 @@ h2 {
 /* styling for the footer */
 footer {
   display: block;
+  bottom: 0;
+  margin: 0px;
   padding: 20px;
-  background: linear-gradient(to bottom, var(--header-bkgrnd-color) 0%, var(--background-color) 50%);
-}
-
-footer h3 {
-  color: var(--orange-text);
-  text-align: center;
+  background-color: var(--background-color);
 }
 
 /* Class Selectors */
-
-
 
 .btn:hover {
   color: var(--blue-text);
@@ -78,10 +73,10 @@ footer h3 {
   border: 2px solid var(--orange-text);
 }
 
-/* .menu:active {
+.menu:active {
   color: var(--orange-text);
   border: 2px solid var(--blue-text);
-} */
+}
 
 .activemenu {
   color: var(--orange-text);
@@ -150,30 +145,11 @@ footer h3 {
   align-items: center;
 }
 
-.profile a {
-  padding: 10px;
-  text-decoration: none;
-  color: #fff;
-  transition: border-color 0.2s ease-in-out;
-}
-
-.profile a:hover {
-  border: 2px solid;
-  border-color: var(--orange-text);
-  border-radius: 3px;
-  color: var(--blue-text);
-}
-
-.profile a:active {
-  color: var(--orange-text);
-  border: 2px solid var(--blue-text);
-}
-
-.github-logo {
+.github-logo, .linkedin-logo, .stackoverflow-logo {
   filter: brightness(50%);
 }
 
-.github-logo:hover {
+.github-logo:hover, .linkedin-logo:hover, .stackoverflow-logo:hover {
   filter: brightness(100%);
 }
 
