@@ -59,5 +59,5 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Links
 
-Repository: https://github.com/harviator/budget-tracker \
-Deployed: https://polar-thicket-93893.herokuapp.com/
+Repository: https://github.com/harviator/jon-harvey-react-portfolio \
+Deployed: https://harviator.github.io/jon-harvey-react-portfolio/
