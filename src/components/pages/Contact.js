@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 
 function Contact(props) {
     return (
-        <section style={{height:'95vh'}}>
+        <section style={{ height: '95vh' }}>
             <h2>Contact Me</h2>
             <Form className="form">
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
