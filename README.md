@@ -55,7 +55,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Screen Shot
 
-![Screen Shot](./public/images/screen-shot.png)
+![Screen Shot](./src/assets/images/screen-shot.png)
 
 ## Links
 
