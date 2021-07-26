@@ -1,1 +1,0 @@
-# jon-harvey-react-portfolio

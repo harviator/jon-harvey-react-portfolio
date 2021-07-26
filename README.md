@@ -47,10 +47,10 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Process
 
-* For this project we were given some starter code.
-* Based on the start code I created the db.js to work with IndexedDB to store data offline and pass that data into the database once online, then using a service worker and manifest to store files to render the website in the cache.
-* The biggest challenges for this project I had was getting the service worker to function properly.
-* The successes for this project was getting a better getting more exposure to working with IndexedDB, service worker, and manifest file to create a PWA.
+* For this project our previous portfolio was our starter code.
+* I started with copying my previous HTML & CSS code into the React app.  Then I broke the HTML code into react components
+* The biggest challenges for this project was getting use to React, but all in all it was a good experience.
+* The successes for this project was breaking down the previous code into components to be used by React in a single page structure.
 * Credit to my tutor, TA's, and classmates for their help.
 
 ## Screen Shot
