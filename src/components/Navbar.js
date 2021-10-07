@@ -15,9 +15,9 @@ function Navbar(props) {
         <Link to="/portfolio" className={location.pathname === "/portfolio" ? "activemenu menu" : "menu"}>
           Portfolio
         </Link>
-        <Link to="/contact" className={location.pathname === "/contact" ? "activemenu menu" : "menu"}>
+        {/* <Link to="/contact" className={location.pathname === "/contact" ? "activemenu menu" : "menu"}>
           Contact
-        </Link>
+        </Link> */}
         <Link to="/resume" className={location.pathname === "/resume" ? "activemenu menu" : "menu"}>
           Resume
         </Link>
