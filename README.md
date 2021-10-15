@@ -2,10 +2,6 @@
 
 # Jon Harvey React Portfolio
 
-## Background
-
-This was a project for the UofT Bootcamp.
-
 ## Table of Contents
 [Description](#description)\
 [Motivation](#motivation)\
@@ -19,12 +15,12 @@ This was a project for the UofT Bootcamp.
 
 ## Description
 
-We were tasked with updating our HTML portfolios into React apps.  The portfolio offers us a place to showcase our work to potential employers and developers.  However, we don't have a back-end on this app, so some functionality is lost.
+A front-end React application that showcases some of the work I have done.
 
 
 ## Motivation
 
-Helps us to get familiar with React as well as cleanly render a multiple page site as a single page.  It also sets us apart from other developers by using one of the latest technologies for our portfolio.
+Demonstrates abilities with React and at the same time providing a platform for a portfolio.
 
 ## User Story
 
@@ -47,11 +43,9 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Process
 
-* For this project our previous portfolio was our starter code.
-* I started with copying my previous HTML & CSS code into the React app.  Then I broke the HTML code into react components
+* I started with copying my previous portfolio code into the React app.  Then I broke the HTML code into react components.
 * The biggest challenges for this project was getting use to React, but all in all it was a good experience.
 * The successes for this project was breaking down the previous code into components to be used by React in a single page structure.
-* Credit to my tutor, TA's, and classmates for their help.
 
 ## Screen Shot
 
